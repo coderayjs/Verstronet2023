@@ -1,6 +1,6 @@
 import React from 'react';
 import "./Navbar.css";
-import {Link} from "react-router-dom";
+import { Link } from 'react-router-dom';
 
 
 
@@ -11,14 +11,14 @@ const Navbar = () => {
                 <div className="logo">
                     <img className="logo" src="/src/assets/verstronet.svg"></img>
                 </div>
-                <Link>
+                <div>
                     <ul className='nav-links'>
-                        <li>Home</li>
-                        <li>Courses</li>
-                        <li>About Us</li>
+                        <li Link to="/Home">Home</li>
+                        <li>Course</li>
+                        <li>About</li>
                         <li>Contact</li>
                     </ul>
-                </Link>
+                </div>
                 <div className="Enroll-btn">
                     <button className="btn-card">
                         Start Selling
