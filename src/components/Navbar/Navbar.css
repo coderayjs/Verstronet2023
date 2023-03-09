@@ -1,3 +1,9 @@
+html {
+    height: 100%;
+    width: 100%;
+  }
+
+
 .navbar{
     width: 100%;
     padding-left: 105px;
@@ -14,15 +20,39 @@
 
 .nav-links{
     display:flex;
-    text-align: center;
     flex-direction: row;
-    justify-content: space-between;
     
+
 }
 
 li{
-    list-style: none;
     display: flex;
 }
 
 
+
+.Enroll-btn{
+    display: flex;
+    width: 100%;
+    position: absolute;
+}
+
+.btn-card{
+position: absolute;
+width: 171px;
+height: 55px;
+left: 1164px;
+color: rgb(255, 255, 255);
+border-radius: 10px;
+background-color: rgb(6, 127, 248);
+font-family: 'Jost';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+align-items: center;
+border: none;
+
+color: #FFFFFF;
+
+    
+}
