@@ -30,6 +30,7 @@ const Navbar = () => {
                     <a className='sell-text' href="/register">Start Selling</a>
                 </button>
                 
+                
             </div>
             </ul>
         </nav>

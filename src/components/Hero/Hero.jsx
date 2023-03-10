@@ -1,6 +1,9 @@
 import react from "react"
 import "./Hero.css"
 import { useState } from "react"
+import heroimg from "/src/assets/heroimg.svg";
+import mask from "/src/assets/Mask group.png";
+
 
 
 
@@ -17,11 +20,25 @@ const Hero = () =>{
                    <button>Search</button>
                 </div>
                 <div className="Trending-Text">
-                <h3>Trending Courses:
-                    
-                </h3>
-                    
+                <h4>Trending Courses: 
+                <button>Tiktok videos</button>
+                <button>Youtube</button>
+                <button>forex</button>
+                <button>cryptocurrency</button>
+                </h4>
+                <div className="learn">
+                    <p>Join thousands of learners worldwide and
+                        start your journey today</p>
+                    <button>Learn More</button>
                 </div>
+                </div>
+                
+                <div className="hero-img">
+                    <img src={heroimg} alt="hero"/>
+                    <img src={mask} alt="mask"/>
+                </div>
+
+                
             </div>
     )
 }
