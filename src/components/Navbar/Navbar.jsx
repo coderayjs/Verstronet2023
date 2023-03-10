@@ -1,32 +1,40 @@
 import React from 'react';
 import "./Navbar.css";
-import { Link } from 'react-router-dom';
-
+import verstronet from "/src/assets/verstronet.svg"
 
 
 const Navbar = () => {
     return (
-        <div className="navbar">
-            <div className="navbar-items">
-                <div className="logo">
-                    <img className="logo" src="/src/assets/verstronet.svg"></img>
-                </div>
-                <div>
-                    <ul className='nav-links'>
-                        <li Link to="/Home">Home</li>
-                        <li>Course</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                    </ul>
-                </div>
-                <div className="Enroll-btn">
-                    <button className="btn-card">
-                        Start Selling
-                    </button>
-                </div>
+        <nav className="navbar">
+            <div className="navbar-brand">
+                <a href="/">
+                    <img src={verstronet} alt="logo" />
+                </a>
             </div>
-        </div>
-    );
+
+            <ul className="navbar-nav">
+                <li className="nav-item">
+                    <a href="/">Home</a>
+                </li>
+                <li className="nav-item">
+                    <a href="/about">Courses</a>
+                </li>
+                <li className="nav-item">
+                    <a href="/contact">Contact</a>
+                </li>
+                <li className="nav-item">
+                    <a href="/contact">About</a>
+                </li>
+                <div className='sell-btn'>
+                <button className='btn-card'>
+                    <a className='sell-text' href="/register">Start Selling</a>
+                </button>
+                
+            </div>
+            </ul>
+        </nav>
+    )
 }
+
 
 export default Navbar;

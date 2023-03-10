@@ -1,58 +1,94 @@
-html {
-    height: 100%;
-    width: 100%;
-  }
-
 
 .navbar{
-    width: 100%;
-    padding-left: 105px;
-    padding-right: 105px;
+    padding: 25px;
+    overflow: hidden;
+
+}
+
+
+.navbar-brand{
+    float: left;
+    margin-left: 40px;
+    margin-right: 150px;
     margin-top: 20px;
-}
-
-.navbar-items{
-    display: flex;
-    width: 100%;
-    position: absolute;
     
 }
 
-.nav-links{
-    display:flex;
-    flex-direction: row;
-    
 
+.navbar-nav{
+display: flex;
+flex-direction: row;
+align-items: center;
+list-style: none;
+text-decoration: none;
 }
+
+
+a:link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    
+    
+}
+
+
+a:link:hover{
+    text-decoration: underline;
+    color: rgb(7, 73, 241);
+}
+
+
+
 
 li{
-    display: flex;
+    display: inline-block; 
+    margin-right: 60px;
+
 }
 
 
-
-.Enroll-btn{
-    display: flex;
-    width: 100%;
-    position: absolute;
-}
 
 .btn-card{
-position: absolute;
-width: 171px;
 height: 55px;
-left: 1164px;
-color: rgb(255, 255, 255);
+width: 150px;
 border-radius: 10px;
-background-color: rgb(6, 127, 248);
-font-family: 'Jost';
+background-color: #0056D2;
 font-style: normal;
 font-weight: 700;
 font-size: 18px;
 align-items: center;
 border: none;
+float: right;
+text-decoration: none;
 
-color: #FFFFFF;
+}
 
+
+.navbar .sell-btn {
+    padding-left: 150px;
     
+
+}
+
+
+
+
+.btn-card:hover{
+background-color: #0084f7;
+cursor: pointer;
+
+}
+
+
+
+.btn-card .sell-text{
+    color: azure;
+    text-align: center;
+}
+
+
+.btn-card .sell-text:hover{
+    text-decoration: underline;
+    color: azure;
 }
