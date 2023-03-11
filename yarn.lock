@@ -901,6 +901,25 @@
   "resolved" "https://registry.npmjs.org/supports-preserve-symlinks-flag/-/supports-preserve-symlinks-flag-1.0.0.tgz"
   "version" "1.0.0"
 
+"tailgrids-react@^0.1.5":
+  "integrity" "sha512-N6xip5rq8xSFUvqlrqcUmHu57wmRRctWNluXF+HOA0utdzc+9aKrETHlrH/GG+xfhnwWnmtK4q21qQY+bF+tfA=="
+  "resolved" "https://registry.npmjs.org/tailgrids-react/-/tailgrids-react-0.1.5.tgz"
+  "version" "0.1.5"
+
+"tailgrids@^1.1.6":
+  "integrity" "sha512-osqy2ArBL1Pk1oxHB+jHBGsN4332jvpmgKdXYWsU9bQXduJ0WyQPH5kXVnesQ1KYZBujVv7aKsKyDEYQvRuGcw=="
+  "resolved" "https://registry.npmjs.org/tailgrids/-/tailgrids-1.1.7.tgz"
+  "version" "1.1.7"
+  dependencies:
+    "tailgrids" "^1.1.6"
+
+"tailgrids@^2.0.1":
+  "integrity" "sha512-fW65ezVt/OjI6rMhC5wKCFwS6i4CiV/uYB7HeZvZctQDTiVd7+F5k+haeM92Ob8RUs5GamwvelQ7BL3/85D+uA=="
+  "resolved" "https://registry.npmjs.org/tailgrids/-/tailgrids-2.0.1.tgz"
+  "version" "2.0.1"
+  dependencies:
+    "tailgrids" "^1.1.6"
+
 "tailwindcss@^3.2.7":
   "integrity" "sha512-B6DLqJzc21x7wntlH/GsZwEXTBttVSl1FtCzC8WP4oBc/NKef7kaax5jeihkkCEWc831/5NDJ9gRNDK6NEioQQ=="
   "resolved" "https://registry.npmjs.org/tailwindcss/-/tailwindcss-3.2.7.tgz"

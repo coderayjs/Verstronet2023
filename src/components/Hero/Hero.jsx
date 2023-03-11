@@ -12,30 +12,32 @@ const Hero = () =>{
         <div className="hero">
             <div className="hero-text">
                 <h1>Hello, Find a <span>MINI</span> Course<br> 
-                </br>to Improve your Earnings</h1>
+                </br>to Improve your Earnings Online</h1>
             </div>
-            <div className="search-box">
-                   <input type="search" placeholder="Search Courses" alt="search course">
+            <div className="search-container">
+                   <form role="search" id='form'>
+                   <input className="search-input" type="search" placeholder="Search Courses" alt="search course">
                    </input>
-                   <button>Search</button>
+                   <button className="search-btn">Search</button>
+                   </form>
                 </div>
-                <div className="Trending-Text">
-                <h4>Trending Courses: 
-                <button>Tiktok videos</button>
-                <button>Youtube</button>
-                <button>forex</button>
-                <button>cryptocurrency</button>
+                <div className="Trending-text">
+                <h4 className="text-course">Trending Courses: 
+                    <button className="btn1">Tiktok videos</button>
+                    <button className="btn2">Youtube</button>
+                    <button className="btn3">forex</button>
+                    <button className="btn4">cryptocurrency</button>
                 </h4>
                 <div className="learn">
-                    <p>Join thousands of learners worldwide and
+                    <p className="learn">Join thousands of learners worldwide and
                         start your journey today</p>
-                    <button>Learn More</button>
+                    <button className="learn-btn">Learn More</button>
                 </div>
                 </div>
                 
                 <div className="hero-img">
-                    <img src={heroimg} alt="hero"/>
-                    <img src={mask} alt="mask"/>
+                    <img className="woman" src={heroimg} alt="hero"  width={550} height={450}/>
+                    {/* <img className="circle" src={mask} alt="mask"  width={500} height={400} /> */}
                 </div>
 
                 
