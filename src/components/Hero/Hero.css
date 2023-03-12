@@ -34,6 +34,7 @@
  .hero-text,
  .text-course{
     margin-left: 40px;
+    
 }
 
 
@@ -75,12 +76,12 @@ form{
         font-size: 18px;
         align-items: center;
         border: none;
-        margin-left: 10px;
+        margin-left: 1px;
         margin-top: -42px;
         margin-right: -130px;
         color:aliceblue;
         height: 45px;
-        width: 90px;
+        width: 100px;
         cursor: pointer;
         border-radius: 5px;
         position: relative;

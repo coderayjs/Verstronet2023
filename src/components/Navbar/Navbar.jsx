@@ -17,14 +17,15 @@ const Navbar = () => {
                     <a href="/">Home</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/about">Courses</a>
+                    <a href="/courses">Courses</a>
                 </li>
                 <li className="nav-item">
                     <a href="/contact">Contact</a>
                 </li>
                 <li className="nav-item">
-                    <a href="/contact">About</a>
+                    <a href="/About">About</a>
                 </li>
+
                 <div className='sell-btn'>
                 <button className='btn-card'>
                     <a className='sell-text' href="/register">Start Selling</a>

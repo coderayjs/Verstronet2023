@@ -1,8 +1,10 @@
+import Hero from './src/components/Hero/Hero'
+
+/** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./*.html", "./ecommerce/*.html", "./assets/**/*.js"],
-  theme: {},
-  variants: {
+  content: ["./components/**/*.{html,js, jxs}"],
+  theme: {
     extend: {},
   },
-  plugins: [require("tailgrids/plugin")],
-};
+  plugins: [],
+}
